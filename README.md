@@ -1,4 +1,4 @@
-# Sudoku Solver
+# Sudoku
 
 This Sudoku Solver is a command-line program written in C++ that allows you to play and solve Sudoku puzzles. I created this project during an exam, and it took me 3 hours to complete. I built it for both entertainment and learning purposes, and I hope it can be useful to me or anyone else interested in Sudoku in the future.
 
