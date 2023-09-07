@@ -63,7 +63,6 @@ void showGame(const SudokuBoard &board, const vector<string> &moves) {
     cout << "\033[2J\033[1;1H";  // Clear the screen
     cout << "\033[1;36m --!* Sudoku Board *!--\033[0m" << endl;
 
-    // Print the Sudoku board
     for (int r = 0; r < N; r++) {
         for (int c = 0; c < N; c++) {
             if (c == 3 || c == 6)
@@ -74,7 +73,6 @@ void showGame(const SudokuBoard &board, const vector<string> &moves) {
                 cout << "\033[1;32m" << board.board[r][c] << "\033[0m" << " ";
         }
 
-        // Print the move history on the right side
         if (r < moves.size()) {
             cout << "  |  " << moves[r];
         }
